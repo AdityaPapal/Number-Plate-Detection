@@ -12,6 +12,7 @@ cap.set(4, frameHeight)
 cap.set(10,150)
 count = 0
 
+
 while True:
     success, img = cap.read()
     imgGray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
